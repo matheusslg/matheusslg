@@ -74,7 +74,7 @@ export default AboutMe;
 [linkedin]: https://www.linkedin.com/in/matheus-nascimento-cavallini-420408143/
 <br>
 
-#### Rede Sociais!
+#### Social Media
 
 🐦 [twitter][twitter] **|** 
 📷 [instagram][instagram] **|** 
