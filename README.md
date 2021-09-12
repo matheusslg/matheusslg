@@ -62,7 +62,6 @@ export default AboutMe;
 [twitter]: https://twitter.com/matheus_slg
 [instagram]: https://www.instagram.com/matheusslg/
 [linkedin]: https://www.linkedin.com/in/matheus-nascimento-cavallini-420408143/
-<br>
 
 #### Social Media
 
