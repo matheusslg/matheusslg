@@ -59,16 +59,6 @@ AboutMe.propTypes = {
 export default AboutMe;
 ```
 
-## **GitHub Status**
-
-<a href="https://github.com/matheusslg">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheusslg&theme=dracula&hide_langs_below=1" />
-</a>
-
-<a href="https://github.com/matheusslg">
- <img align="center" src="https://github-readme-stats.vercel.app/api?username=matheusslg&show_icons=true&theme=dracula&line_height=27" alt="Matheus Cavallini Github Stats"/>
-</a>
-
 [twitter]: https://twitter.com/matheus_slg
 [instagram]: https://www.instagram.com/matheusslg/
 [linkedin]: https://www.linkedin.com/in/matheus-nascimento-cavallini-420408143/
