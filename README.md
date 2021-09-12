@@ -14,19 +14,29 @@ const AboutMe = forwardRef(({ newSkills }, ref) => {
   const name = "Matheus Nascimento Cavallini";
   const mainPosition = "Front-end Developer";
   const primarySkill = "React Hooks";
-  const [skills, setSkills] = useState(["JavaScript", "React", "Angular JS", "Angular 2+", "SASS", "Styled Components", "NodeJS", "Git", "PHP"]);
+  const [skills, setSkills] = useState([
+    "JavaScript",
+    "React",
+    "Angular JS",
+    "Angular 2+",
+    "SASS",
+    "Styled Components",
+    "NodeJS",
+    "Git",
+    "PHP",
+  ]);
 
   useImperativeHandle(ref, () => ({
     getSkills() {
       return skills;
-    }
+    },
   }));
 
   useEffect(() => {
     if (newSkills.length > 0) {
-      setSkills(...new Set([ ...skills, newSkills ]));
+      setSkills(...new Set([...skills, newSkills]));
     }
-  }, [newSkills])
+  }, [newSkills]);
 
   return (
     <section>
@@ -43,8 +53,8 @@ const AboutMe = forwardRef(({ newSkills }, ref) => {
 });
 
 AboutMe.propTypes = {
-  newSkills: PropTypes.array
-}
+  newSkills: PropTypes.array,
+};
 
 export default AboutMe;
 ```
