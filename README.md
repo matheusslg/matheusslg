@@ -33,7 +33,7 @@ const AboutMe = forwardRef(({ newSkills }, ref) => {
   }));
 
   useEffect(() => {
-    if (newSkills.length > 0) {
+    if (newSkills.length) {
       setSkills(...new Set([...skills, newSkills]));
     }
   }, [newSkills]);
