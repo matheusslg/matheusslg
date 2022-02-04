@@ -59,6 +59,8 @@ export default AboutMe;
 
 ![matheusslg's GitHub stats](https://github-readme-stats.vercel.app/api?username=matheusslg&count_private=true&show_icons=true)
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=matheusslg)
+
 [twitter]: https://twitter.com/matheus_slg
 [instagram]: https://www.instagram.com/matheusslg/
 [linkedin]: https://www.linkedin.com/in/matheus-nascimento-cavallini-420408143/
