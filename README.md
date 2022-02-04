@@ -59,7 +59,7 @@ export default AboutMe;
 
 ![matheusslg's GitHub stats](https://github-readme-stats.vercel.app/api?username=matheusslg&count_private=true&show_icons=true)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=matheusslg)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=matheusslg&hide=php&layout=compact)
 
 [twitter]: https://twitter.com/matheus_slg
 [instagram]: https://www.instagram.com/matheusslg/
