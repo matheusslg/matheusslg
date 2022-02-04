@@ -62,7 +62,7 @@ export default AboutMe;
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=matheusslg&hide=php&layout=compact)
 
 [twitter]: https://twitter.com/matheus_slg
-[instagram]: https://www.instagram.com/matheusslg/
+[instagram]: https://www.instagram.com/mathcavallini/
 [linkedin]: https://www.linkedin.com/in/matheus-nascimento-cavallini-420408143/
 
 #### Social Media
