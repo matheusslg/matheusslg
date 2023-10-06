@@ -10,7 +10,7 @@ import PropTypes from "prop-types";
 
 const AboutMe = forwardRef(({ newSkills }, ref) => {
   const name = "Matheus Nascimento Cavallini";
-  const mainPosition = "Front-End Developer";
+  const mainPosition = "Full-Stack Developer";
   const primarySkill = "React";
   const [skills, setSkills] = useState([
     "JavaScript",
