@@ -1,80 +1,104 @@
-### Hey there! 👋
+<h1 align="center">Hey, I'm Matheus 👋</h1>
 
-My name is Matheus, I'm from Brazil and this is just a small resume about me. Feel free to contact me, thanks!
+<p align="center">
+  Senior Software Engineer · Tech Lead · Full-Stack Architect<br>
+  <strong>React</strong> · <strong>NestJS</strong> · <strong>TypeScript</strong> · <strong>PostgreSQL</strong> · <strong>Stripe</strong> · <strong>AWS Cognito</strong> · <strong>OpenAI</strong>
+</p>
 
-## <img width="45" alt="about" src="https://raw.github.com/elizarov/elizarov/master/about.png"> More about me
+<p align="center">
+  🇧🇷 Based in Brazil | 🧠 7+ Years Experience | 🏥 Building HIPAA-Compliant Healthtech Apps
+</p>
 
-```js
-import React, { useEffect, forwardRef, useImperativeHandle } from "react";
-import PropTypes from "prop-types";
+---
 
-const AboutMe = forwardRef(({ newSkills }, ref) => {
-  const name = "Matheus Nascimento Cavallini";
-  const mainPosition = "Full-Stack Developer";
-  const primarySkill = "React";
-  const [skills, setSkills] = useState([
-    "JavaScript",
-    "TypeScript",
-    "React",
-    "React Native",
-    "Next.js",
-    "Storybook",
-    "JEST",
-    "Cypress",
-    "Angular JS",
-    "Angular 2+",
-    "SASS",
-    "Styled Components",
-    "EmotionJS"
-    "NodeJS",
-    "Git",
-    "PHP",
-  ]);
+### 👷‍♂️ What I'm Building
 
-  useImperativeHandle(ref, () => ({
-    getSkills() {
-      return skills;
-    },
-  }));
-
-  useEffect(() => {
-    if (newSkills.length) {
-      setSkills(...new Set([...skills, newSkills]));
-    }
-  }, [newSkills]);
-
-  return (
-    <section>
-      <h1>About me!</h1>
-      <p>{`Hi, my name is ${name}, I'm a ${mainPosition} and my primary skill is ${primarySkill}.`}</p>
-      <h3>Some skills:</h3>
-      <ul>
-        {skills.map((lng) => (
-          <li>{lng}</li>
-        ))}
-      </ul>
-    </section>
-  );
-});
-
-AboutMe.propTypes = {
-  newSkills: PropTypes.array,
+```ts
+const currentProject = {
+  name: "SXRX",
+  description: "Post-operative recovery SaaS for surgeons and patients",
+  techStack: [
+    "Next.js", 
+    "NestJS", 
+    "PostgreSQL", 
+    "MikroORM", 
+    "Capacitor", 
+    "Stripe", 
+    "Firebase", 
+    "AWS Cognito"
+  ],
+  features: [
+    "HIPAA compliance",
+    "Semantic AI search",
+    "Subscription schedules",
+    "Mobile-web hybrid",
+    "Role-based access",
+    "Push notifications"
+  ]
 };
-
-export default AboutMe;
 ```
 
-![matheusslg's GitHub stats](https://github-readme-stats.vercel.app/api?username=matheusslg&count_private=true&show_icons=true)
+---
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=matheusslg&hide=php&layout=compact)
+### 🧠 My Stack
 
-[twitter]: https://twitter.com/matheus_slg
-[instagram]: https://www.instagram.com/mathcavallini/
-[linkedin]: https://www.linkedin.com/in/matheus-nascimento-cavallini-420408143/
+```ts
+const matheusStack = {
+  frontend: ["React", "Redux", "Storybook", "Emotion", "Cypress", "JEST"],
+  backend: ["NestJS", "Node.js", "Express", "Prisma", "TypeORM"],
+  databases: ["PostgreSQL", "MongoDB", "MySQL"],
+  devops: ["Docker", "GitHub Actions", "AWS", "Firebase"],
+  languages: ["TypeScript", "JavaScript", "SQL", "Python"],
+  integrations: ["Stripe", "OpenAI", "Puppeteer", "Commitizen"]
+};
+```
 
-#### Social Media
+---
 
-🐦 [twitter][twitter] **|** 
-📷 [instagram][instagram] **|** 
-👔 [linkedin][linkedin]
+### 🏆 Project Highlights
 
+- 🧠 Architecting and developing **SXRX**, a HIPAA-compliant healthtech platform (2023–Present)
+- 🚀 Led front-end development at **Pingback.com**, a content monetization platform
+- 🏡 Created full real estate management platform for **Cavallini Imóveis**
+- 🔌 Integrated **OpenAI** for customer assistant agents using NestJS
+- 💳 Developed advanced **Stripe** billing flows: webhooks, subscription phases, etc.
+- 📸 Created automated screenshot tools with **Puppeteer**
+- 📦 Built component libraries with **Storybook**, **JEST**, **Rollup**, and **Lerna**
+- 🧪 E2E testing culture with **Cypress**, **GitHub Actions**, and **Commitizen**
+
+---
+
+### 📍 Timeline
+
+```yaml
+- 2018–2019: Front-End Developer @ Usabit
+- 2019–2020: Full-Stack Developer @ Cavallini Imóveis
+- 2020–2022: Head of Front-End @ Pingback.com
+- 2022–Now: Senior Engineer @ FullStack Labs
+    - Project: SXRX (Healthtech SaaS)
+```
+
+---
+
+### 💼 Quick Links
+
+- 🔗 [LinkedIn](https://www.linkedin.com/in/matheus-nascimento-cavallini-420408143/)
+- 📂 [GitHub Repos](https://github.com/matheusslg?tab=repositories)
+
+---
+
+### 🎸 About Me
+
+```ts
+const hobbies = ["🎮 Gaming", "🎸 Playing Guitar", "☕ Drinking Chimarrão", "🏞️ Hiking"];
+const values = ["Clean Code", "Ownership", "Simplicity", "Security by Design", "Team Collaboration"];
+```
+
+---
+
+### 📬 Let's Connect
+
+Open to exciting technical challenges, remote collaborations, and impactful ideas.
+Feel free to [reach out on LinkedIn](https://www.linkedin.com/in/matheus-nascimento-cavallini-420408143/) or explore my repos here.
+
+---
